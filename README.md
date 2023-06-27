@@ -2,8 +2,9 @@
 <br>Этот проект делает запросы к публичному API https://jservice.io/api/random?count=1 указанное количество раз.
 <br>Сохраняет информацию в таблице questions(id, question_id, question_text, answer_text, created_at)
 <br>Как запустить проект:
-<br>
-<br>    1) В файле .env изменить переменные DB_USER, DB_PASS на используемые.
+<br>    1)Создать базу данных postgresql через docker: docker run -p 5432:5432 --name nameapp -e POSTGRES_USER=username -e POSTGRES_PASSWORD=password -e POSTGRES_DB=namedb -d postgres:13.3
+<br>        
+<br>    1) В файле .env изменить переменные DB_USER, DB_PASS, DB_NAME, DB_PORT на используемые.
 <br>
 <br>    2) Для активации работы необходимо зайти в папку проекта, через консоль.
 <br>
