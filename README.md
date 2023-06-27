@@ -3,7 +3,7 @@
 <br>Сохраняет информацию в таблице questions(id, question_id, question_text, answer_text, created_at)
 <br>Как запустить проект:
 <br>
-<br>    1) Создать базу данных postgresql через docker: docker run -p 5432:5432 --name quiz -e POSTGRES_USER=user -e POSTGRES_PASSWORD=password -e POSTGRES_DB=quiz -d postgres:13.3
+<br>    1) Создать базу данных postgresql через docker: docker run -p 5432:5432 --name quiz -e POSTGRES_USER=user -e POSTGRES_PASSWORD=password -e POSTGRES_DB=quiz -d postgres
 <br>
 <br>    2) Для активации работы необходимо зайти в папку проекта, через консоль.
 <br>
